@@ -8,7 +8,7 @@ files = []
 
 print("Opening files in docs/")
 for filename in os.listdir(folderpath):
-    if filename.startswith("label"):
+    if filename.endswith("txt"):
         files.append(filename)
         print("º", filename)    
 
